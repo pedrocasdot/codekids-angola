@@ -42,6 +42,7 @@ function enviarEmail(){
             text: "O seu email foi enviado com sucesso, responderemos o mais breve possivel!",
             icon: "success"
           });
+      formulario.reset();
       }else{
         console.log(message);
       }
