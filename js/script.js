@@ -60,7 +60,6 @@ formulario.addEventListener("submit", (e)=>{
   }else{
     limparCampos();
     enviarEmail();
-    formulario.reset();
   }
 });
 
