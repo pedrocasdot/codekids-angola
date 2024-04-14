@@ -207,15 +207,15 @@
             <div class="image">
                 <img src="images/contact.png" alt="">
             </div>
-            <form onsubmit="return validarCampos()" action="https://api.web3forms.com/submit" method="POST">
+            <form action="#">
                 <h3>envie-nos uma mensagem</h3>
-                <input type="hidden" name="access_key" value="aad5e18b-c0fb-4ceb-b93e-1aaa8fc9abd8">
                 <input style="text-transform: none;"  name="Nome: " type="text" placeholder="Nome" class="box" id="nome" required>
                 <input style="text-transform: none;"  name="Assunto: " type="text" placeholder="Assunto" class="box" id="assunto" required>
                 <input style="text-transform: none;"  name="Email: " type="text" placeholder="Email" class="box" id="email" required>
                 <input style="text-transform: none;" name="Numero: " type="number" placeholder="Nº de telefone" class="box" id="numero" required>
                 <textarea style="text-transform: none;" name="Mensagem: " placeholder="Mensagem" class="box" cols="30" rows="10"  id="mensagem" required></textarea>
-                <button type="submit" class="btn" >Enviar Mensagem</button>
+
+                <button type="submit" class="btn">Enviar Mensagem</button>
             </form>
         </div>
 
@@ -240,7 +240,7 @@
 
             <div class="box">
                 <h3>Informações de Contato:</h3>
-                <p>+244 923 456 789</p>
+                <p>+244 933 354 500</p>
                 
                 <a href="mailto:codekidsangola@gmail.com" class="link" style="text-transform: lowercase;">codekidsangola@gmail.com</a>
                 <p>Endereço: ISPTEC, Luanda, Angola</p>
@@ -259,6 +259,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- custom js -->
     <script src="js/script.js"></script>
-    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
