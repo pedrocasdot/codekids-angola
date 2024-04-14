@@ -25,7 +25,7 @@ function limparCampos() {
 function enviarEmail(){
     const bodyMessage = `Nome: ${nome.value}<br> Email: ${email.value}<br>
     Telefone: ${numero.value}<br>Mensagem: ${mensagem.value}`;
-
+    console.log(bodyMessage)
     Email.send({
     Host : "smtp.elasticemail.com",
     Username : "codekidsangola@gmail.com",
