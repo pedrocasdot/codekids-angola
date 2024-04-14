@@ -9,17 +9,11 @@ let mensagem = document.getElementById("mensagem");
 
 document.querySelector('#menu-btn').onclick = () =>{
   navbar.classList.toggle('active');
-  loginForm.classList.remove('active');
 }
 
 window.onscroll = () =>{
   navbar.classList.remove('active');
-  loginForm.classList.remove('active');
 }
-
-function limparCampos() {
-       
-    }
 
 
 function enviarEmail(){
@@ -42,10 +36,14 @@ function enviarEmail(){
             text: "O seu email foi enviado com sucesso, responderemos o mais breve possivel!",
             icon: "success"
           });
-      formulario.reset();
       }else{
-        console.log(message);
+          Swal.fire({
+            title: "Opsss!",
+            text: "Não foi possível enviar o email, algum erro aconteceu!",
+            icon: "Error"
+          });
       }
+      formulario.reset();
     }
   );
 }
@@ -58,7 +56,6 @@ formulario.addEventListener("submit", (e)=>{
           icon: "warning"
     });      
   }else{
-    limparCampos();
     enviarEmail();
   }
 });

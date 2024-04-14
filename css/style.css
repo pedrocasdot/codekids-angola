@@ -212,9 +212,9 @@ section{
 #menu-btn{
   display: none;
 }
-/* home */
+/* inicio */
 
-.home{
+.inicio{
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -225,17 +225,17 @@ section{
   background-position: center;
 }
 
-.home .content{
+.inicio .content{
   max-width: 50rem;
 }
 
-.home .content h3{
+.inicio .content h3{
   font-size: 5rem;
   color: var(--white);
   line-height: 1.2;
 }
 
-.home .content p{
+.inicio .content p{
   font-size: 1.5rem;
   line-height: 2;
   color: var(--white);
@@ -243,23 +243,23 @@ section{
 }
 
 
-/* about */
+/* sobre */
 
-.about .container{
+.sobre .container{
   display: flex;
   flex-wrap: wrap;
 }
 
-.about .container .about-image{
+.sobre .container .sobre-image{
   position: relative;
   flex: 1 1 40rem;
 }
 
-.about .container .about-image img{
+.sobre .container .sobre-image img{
   width: 80%;
 }
 
-.about .container .about-image .about-img{
+.sobre .container .sobre-image .sobre-img{
   position: absolute;
   bottom: -10rem;
   right: -1rem;
@@ -267,18 +267,18 @@ section{
   padding-block: 5rem;
 }
 
-.about .container .about-content{
+.sobre .container .sobre-content{
   flex: 1 1 50rem;
   padding-left: 6rem;
   padding-top: 8rem;
 }
 
-.about .container .about-content h3{
+.sobre .container .sobre-content h3{
   font-size: 3rem;
   color: var(--primary-color);
 }
 
-.about .container .about-content p{
+.sobre .container .sobre-content p{
   font-size: 1.6rem;
   color: #444;
   padding: 1rem 0;
@@ -286,31 +286,31 @@ section{
 }
 
 
-/* courses */
+/* cursos */
 
-.courses .box-container{
+.cursos .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
-.courses .box-container .box .image{
+.cursos .box-container .box .image{
   height: 25rem;
   overflow: hidden;
   position: relative;
 }
 
-.courses .box-container .box .image img{
+.cursos .box-container .box .image img{
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.courses .box-container .box:hover .image img{
+.cursos .box-container .box:hover .image img{
   transform: scale(1.1);
 }
 
-.courses .box-container .box .image h3{
+.cursos .box-container .box .image h3{
   font-size: 1.5rem;
   color: #444;
   position: absolute;
@@ -319,13 +319,13 @@ section{
   background: var(--white);
 }
 
-.courses .box-container .box .content{
+.cursos .box-container .box .content{
   padding: 2rem;
   position: relative;
   border: 0.1rem solid var(--primary-color);
 }
 
-.courses .box-container .box .content h4{
+.cursos .box-container .box .content h4{
   position: absolute;
   background: var(--primary-color);
   color: var(--secondary);
@@ -338,33 +338,33 @@ section{
   border-radius: 50%;
 }
 
-.courses .box-container .box .content p{
+.cursos .box-container .box .content p{
   font-size: 1.4rem;
   color: #444;
   line-height: 2;
 }
 
-.courses .box-container .box .content h3{
+.cursos .box-container .box .content h3{
   font-size: 2rem;
   color: #444;
 }
 
-.courses .box-container .box .content .stars{
+.cursos .box-container .box .content .stars{
   padding: 1rem 0;
 }
 
-.courses .box-container .box .content .stars i{
+.cursos .box-container .box .content .stars i{
   font-size: 1.7rem;
   color: var(--primary-color);
 }
 
-.courses .box-container .box .content .stars span{
+.cursos .box-container .box .content .stars span{
   font-size: 1.4rem;
   color: #777;
   margin-left: .5rem;
 }
 
-.courses .box-container .box .content .icons{
+.cursos .box-container .box .content .icons{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -373,26 +373,26 @@ section{
   border-top: 0.1rem solid var(--primary-color);
 }
 
-.courses .box-container .box .content .icons span{
+.cursos .box-container .box .content .icons span{
   font-size: 1.5rem;
   color: #444;
 }
 
-.courses .box-container .box .content .icons span i{
+.cursos .box-container .box .content .icons span i{
   color: var(--primary-color);
   padding-right: .5rem;
 }
 
 
-/* teacher */
+/* equipa */
 
-.teacher .box-container{
+.equipa .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
-.teacher .box-container .box{
+.equipa .box-container .box{
   background: var(--white);
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
@@ -401,28 +401,28 @@ section{
   text-align: center;
 }
 
-.teacher .box-container .box .image{
+.equipa .box-container .box .image{
   position: relative;
   overflow: hidden;
 }
 
-.teacher .box-container .box .image img{
+.equipa .box-container .box .image img{
   background: #80CEF4;
   width: 100%;
 }
 
-.teacher .box-container .box:hover .image .social{
+.equipa .box-container .box:hover .image .social{
   bottom: 0;
 }
 
-.teacher .box-container .box .image .social{
+.equipa .box-container .box .image .social{
   position: absolute;
   bottom: -10rem; 
   left: 0; right: 0;
   padding: 2rem;
 }
 
-.teacher .box-container .box .image .social a{
+.equipa .box-container .box .image .social a{
   height: 4rem;
   width: 4rem;
   line-height: 4rem;
@@ -433,23 +433,23 @@ section{
   border-radius: .5rem;
 }
 
-.teacher .box-container .box .image .social a:hover{
+.equipa .box-container .box .image .social a:hover{
   color: var(--primary-color);
   background: var(--secondary);
 }
 
-.teacher .box-container .box .content{
+.equipa .box-container .box .content{
   padding: 2rem;
   padding-top: 1rem;
   align-items: center;
 }
 
-.teacher .box-container .box .content h3{
+.equipa .box-container .box .content h3{
   font-size: 2rem;
   color: var(--black);
 }
 
-.teacher .box-container .box .content span{
+.equipa .box-container .box .content span{
   font-size: 1.5rem;
   line-height: 2;
   color: #777;
@@ -457,36 +457,36 @@ section{
 
 
 
-/* contact */
+/* contactoo */
 
-.contact .row{
+.contacto .row{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
 }
 
-.contact .row .image{
+.contacto .row .image{
   flex: 1 1 40rem;
 }
 
-.contact .row .image img{
+.contacto .row .image img{
   width: 100%;
 }
 
-.contact .row form{
+.contacto .row form{
   flex: 1 1 40rem;
   border: 0.1rem solid var(--primary-color);
   padding: 2rem;
 }
 
-.contact .row form h3{
+.contacto .row form h3{
   font-size: 2.5rem;
   color: #444;
   padding-bottom: 1rem;
 }
 
-.contact .row form .box{
+.contacto .row form .box{
   width: 100%;
   font-size: 1.6rem;
   padding: 1.2rem 1.4rem;
@@ -494,11 +494,11 @@ section{
   margin: .7rem 0;
 }
 
-.contact .row form .box:focus{
+.contacto .row form .box:focus{
   color: var(--primary-color);
 }
 
-.contact .row form textarea{
+.contacto .row form textarea{
   height: 15rem;
   resize: none;
 }
@@ -621,11 +621,11 @@ section{
     display: block;
   }
 
-  .home .content h3{
+  .inicio .content h3{
     font-size: 3rem;
   }
 
-  .about .container .about-content{
+  .sobre .container .sobre-content{
     padding-left: 0;
   }
 
